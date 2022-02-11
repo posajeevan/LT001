@@ -41,6 +41,14 @@ public class Facebook {
 	    //System.out.println(text);
 	    //alert.accept();
 		driver.findElement(By.xpath("//div[@aria-label='Log out']")).click();
+            if(title.equals("Facebook"))
+		{
+			System.out.println("Title is matched");
+		}
+		else
+		{
+			System.out.println("Title is not matched");
+		}
 		
 
 	}
